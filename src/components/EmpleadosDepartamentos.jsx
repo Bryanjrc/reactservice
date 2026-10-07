@@ -15,7 +15,7 @@ export default class EmpleadosDepartamentos extends Component {
         let request = "api/empleados/empleadosdepartamento/" + idDepartamento;
 
         axios.get(this.urlEmpleados + request).then((response) => {
-            console.log("leyendo empleados");
+            console.log("Leyendo empleados");
 
             this.setState({
                 empleados: response.data
