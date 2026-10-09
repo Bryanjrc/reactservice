@@ -7,10 +7,13 @@ import ComponentServiceCustomers from './components/ComponentServiceCustomers';
 import ComponentServicesSuppliers from './components/ComponentServicesSuppliers';
 import EmpleadosDepartamentosV2 from './components/EmpleadosDepartamentosV2';
 import EmpleadosOficios from './components/EmpleadosOficios';
+import EmpleadosComponent from './components/maestrodetalle/EmpleadosComponent';
+import DepartamentosComponent from './components/maestrodetalle/DepartamentosComponent';
+import CochesComponent from './components/maestrodetalle/CochesComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <EmpleadosOficios/>
+  <CochesComponent/>
 );
 
 // If you want to start measuring performance in your app, pass a function
